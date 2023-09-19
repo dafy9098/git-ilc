@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Halaman Register</h1>
+    <form action="kemanahayo.com">
+        <div>
+            <label for="email">Email:</label>
+            <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            placeholder="address@gmail.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pw">Password:</label>
+            <input 
+            type="password" 
+            name="pw" 
+            id="pw"
+            placeholder="password">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="photo">Foto Profil:</label>
+            <input 
+            type="file" 
+            name="photo" 
+            id="photo">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="birthdate">Tanggal Lahir:</label>
+            <input 
+            type="date" 
+            name="birthdate" 
+            id="birthdate"
+            min="2005-12-30">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="cowo">Male</option>
+                <option value="cewe">Female</option>
+            </select>
+        </div>
+        
+        <br>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div id="container">
+        <div class="kiri">
+            <h1>Register</h1>
+            <form action="kemanahayo.com">
+                <div>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="address@gmail.com">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="pw">Password:</label>
+                    <br>
+                    <input 
+                    type="password" 
+                    name="pw" 
+                    id="pw"
+                    placeholder="password">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="photo">Foto Profil:</label>
+                    <br>
+                    <input 
+                    type="file" 
+                    name="photo" 
+                    id="photo">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="birthdate">Tanggal Lahir:</label>
+                    <br>
+                    <input 
+                    type="date" 
+                    name="birthdate" 
+                    id="birthdate"
+                    min="2005-12-30">
+                </div>
+                
+                <br>
+
+                <div>
+                    <label for="gender">Gender:</label>
+                    <br>
+                    <select name="gender" id="gender">
+                        <option value="cowo">Male</option>
+                        <option value="cewe">Female</option>
+                    </select>
+                </div>
+            
+                <br>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        
+        <img src="logo/graphic-designer-job-description.jpg" alt="" class="kanan">
+    </div>
+
+</body>
+</html>

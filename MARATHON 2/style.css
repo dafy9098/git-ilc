@@ -1,0 +1,30 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    width: 80vw;
+    margin: auto;
+}
+
+.kiri {
+    background-color: rgb(120, 201, 109);
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
+
+img {
+    height: 300px;
+}
+
+.kanan {
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+label {
+    color: rgb(255, 255, 255);
+}

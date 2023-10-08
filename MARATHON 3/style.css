@@ -1,0 +1,147 @@
+body {
+    padding-top: 30px;
+    padding-left: 20px;
+
+    background: url(bg.jpeg);
+    background-size: contain;
+}
+
+.subtitle {
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif
+}
+
+h1 {
+    text-align: center;
+    margin: 0 20px 30px 0;
+    padding: 1em 1em 0.7em 1em;
+
+}   
+
+#main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#here {
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-para {
+    padding: 0px 50px 0px 30px;
+    font-size: 14px;
+}
+
+.sidebar {
+    font-size: 15px;
+}
+
+.para-1 {
+    padding: 10px 50px 10px;
+    text-align: center;
+}
+.para-2{
+    padding: 10px 50px 10px;
+    text-align: center;
+}
+
+#image-1 {
+    border-radius: 0.5em;
+    height: 200px;
+    width: 150px;
+    float: inline-end;
+}
+
+.topic-subtitle {
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 21px;
+}
+
+#image-grid {
+    /* flex-direction: column; */
+    display: -ms-inline-grid;
+    grid-template-columns: auto auto;
+    padding: 10px 50px 10px;
+}
+
+#image-grid > img {
+    height: 200px;
+    width: 340px;
+    margin: 10px;
+    border-radius: 0.5em;
+}
+
+.post {
+    margin: 20px;
+    background-color: rgb(225, 247, 148);
+    padding: 10px;
+    border-radius: 0.5em;
+}
+ a {
+    text-decoration: none;
+    color: rgb(108, 110, 112);
+    margin: 5px;
+    padding: 5px;
+    transition: 300ms;
+}
+ a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 213, 85);
+    border-radius: 0.5em;
+    margin: 5px;
+    padding: 5px;
+}
+
+.subtitle {
+    border-radius: 0.5em;
+    transition: background 250ms ease-in-out;
+}
+
+.subtitle:hover {
+    background: rgb(241, 213, 85);
+    color: rgb(253, 253, 253);
+    border-radius: 0.5em;
+}
+
+img {
+    transition: 300ms ease-in-out;
+}
+
+img:hover {
+    width: 380px;
+    height: 220px;
+
+}
+
+#image-1 {
+    transition: 300ms ease-in-out;
+}
+
+#image-1:hover {
+    width: 175px;
+    height: 220px;
+
+}
+
+/* .post-title {
+    padding: 10px;
+    border-radius: 0.5em;
+    transition: background 250ms ease-in-out;
+}
+
+.post-title:hover {
+    padding: 10px;
+    background: rgb(241, 213, 85);
+    color: rgb(253, 253, 253);
+    border-radius: 0.5em;
+} */
+
+nav > a {
+    color: black;
+}
